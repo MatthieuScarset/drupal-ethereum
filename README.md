@@ -1,8 +1,8 @@
-# Drupal project template
+# Drupal Ethereum
 
-Get a working Drupal website locally in minutes with this fine-tuned template.
+A project template to work on the [Ethereum module](https://www.drupal.org/project/ethereum).
 
-Based on the great [Drupal Composer project](https://github.com/drupal-composer/drupal-project).
+Forked from this [Drupal project template](https://github.com/MatthieuScarset/drupal-template).
 
 ## Requirement
 
@@ -13,7 +13,7 @@ Install [Lando](https://docs.lando.dev/drupal/) on your machine.
 Click on the button _Use this template_ to generate your own project, then:
 
 ```bash
-git clone git@github.com:<UsernameOrOrganization>/drupal-template.git myproject 
+git clone git@github.com:<UsernameOrOrganization>/drupal-ethereum.git myproject 
 
 cd myproject
 
