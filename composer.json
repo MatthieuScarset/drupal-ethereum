@@ -15,23 +15,41 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "ethereum/web3.js",
+                "version": "1.0.0-beta.35",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://github.com/ethereum/web3.js/archive/v1.0.0-beta.35.zip",
+                    "type": "zip"
+                }
+            }
         }
     ],
     "require": {
         "php": ">=7.4",
         "composer/installers": "^1.9",
         "cweagans/composer-patches": "^1.7",
+        "digitaldonkey/ethereum-php": "dev-dev",
+        "drupal/admin_toolbar_tools": "^3.2",
         "drupal/config_ignore": "^2.3",
         "drupal/config_split": "^1.7",
         "drupal/core-composer-scaffold": "^9.3",
         "drupal/core-recommended": "^9.3",
+        "drupal/externalauth": "^2.0",
+        "drupal/restui": "^1.21",
         "drupal/shield": "^1.6",
         "drush/drush": "^10.6",
+        "ethereum/web3.js": "1.0.0-beta.35",
         "vlucas/phpdotenv": "^5.1",
         "webflo/drupal-finder": "^1.2"
     },
     "require-dev": {
-        "drupal/core-dev": "^9.3"
+        "drupal/core-dev": "^9.3",
+        "mglaman/drupal-check": "^1.4"
     },
     "conflict": {
         "drupal/drupal": "*"
